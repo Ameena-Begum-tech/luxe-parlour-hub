@@ -12,8 +12,8 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Nandhini Beauty Parlour — Bridal Makeup & Makeovers in Kakinada" },
       { name: "description", content: "Premium bridal makeup, hair, mehndi & skincare at Nandhini Beauty Parlour, Kakinada. Book at parlour or at home." },
-      { property: "og:title", content: "Nandhini Beauty Parlour — Kakinada" },
-      { property: "og:description", content: "Premium bridal makeup, hair, mehndi & skincare. Book at parlour or at home." },
+      { property: "og:title", content: "Nandhini Beauty Parlour — Bridal Makeup & Makeovers in Kakinada" },
+      { property: "og:description", content: "Premium bridal makeup, hair, mehndi & skincare at Nandhini Beauty Parlour, Kakinada. Book at parlour or at home." },
     ],
   }),
   component: Index,

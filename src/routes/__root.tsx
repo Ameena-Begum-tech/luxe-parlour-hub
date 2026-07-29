@@ -80,13 +80,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Nandhini Beauty Parlour & Makeovers — Kakinada" },
-      { name: "description", content: "Premium bridal makeup, hairstyling, mehndi, facials & skincare in Kakinada. Book at parlour or at home." },
+      { title: "Nandhini Beauty Parlour — Bridal Makeup & Makeovers in Kakinada" },
+      { name: "description", content: "Premium bridal makeup, hair, mehndi & skincare at Nandhini Beauty Parlour, Kakinada. Book at parlour or at home." },
       { name: "author", content: "Nandhini Beauty Parlour" },
-      { property: "og:title", content: "Nandhini Beauty Parlour & Makeovers" },
-      { property: "og:description", content: "Premium bridal & beauty services in Kakinada. Book at parlour or at home." },
+      { property: "og:title", content: "Nandhini Beauty Parlour — Bridal Makeup & Makeovers in Kakinada" },
+      { property: "og:description", content: "Premium bridal makeup, hair, mehndi & skincare at Nandhini Beauty Parlour, Kakinada. Book at parlour or at home." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Nandhini Beauty Parlour — Bridal Makeup & Makeovers in Kakinada" },
+      { name: "twitter:description", content: "Premium bridal makeup, hair, mehndi & skincare at Nandhini Beauty Parlour, Kakinada. Book at parlour or at home." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e11c28bf-8ac1-4897-ac73-e6428ded33e1/id-preview-4599ab3a--b3808536-1fd7-468a-9a3d-6dc9d991ab91.lovable.app-1785338615844.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e11c28bf-8ac1-4897-ac73-e6428ded33e1/id-preview-4599ab3a--b3808536-1fd7-468a-9a3d-6dc9d991ab91.lovable.app-1785338615844.png" },
     ],
     links: [
       {
